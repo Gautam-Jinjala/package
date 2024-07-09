@@ -1,0 +1,2899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yellow</title>
+
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- BootStrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/css/uikit.min.css" />
+
+    <!-- Aos Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css">
+</head>
+
+<body>
+
+    <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- header section -->
+    <header>
+        <div class="top-header">
+            <div class="top-header-content">
+                <div
+                    class="header-content d-flex align-items-center justify-content-lg-center justify-content-evenly flex-md-row flex-column">
+                    <a href="tel:+11234567890" class="header-item">
+                        <img src="image/phone-call.png" alt="call" width="100%" />
+                        (+654) 6478909
+                    </a>
+                    <a href="mailto:user@gmail.com" class="header-item">
+                        <img src="image/email.png" alt="mail" width="100%" />
+                        mail@pckga.id
+                    </a>
+                    <a href="https://www.google.com/maps/place/Inspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO/@21.1819806,72.8679784,17z/data=!4m14!1m7!3m6!1s0x3be051960d7d0381:0xe35086bb452d4ac8!2sInspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l!3m5!1s0x3be051960d7d0381:0xe35086bb452d4ac8!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l?entry=ttu"
+                        target="_blank" class="header-item">
+                        <img src="image/maps-and-flags.png" alt="location" width="100%" />
+                        London Eye, London
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <nav style="z-index: 12;" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+            data-aos-offset="0">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <a href="#Home" class="nav-item">
+                        <img src="image/Logo-Packega.png" alt="logo" width="100%" />
+                    </a>
+                </div>
+                <button onclick="btnToggel()" class="nav-button">
+                    <div class="toggel-icon">
+                        <div class="toggel-btn-icon"></div>
+                        <div class="toggel-btn-icon"></div>
+                        <div class="toggel-btn-icon"></div>
+                    </div>
+                    <div class="toggel-close-icon">
+                        <div class="icon-close-item">
+                            <div class="close-icon-first"></div>
+                            <div class="close-icon-second"></div>
+                        </div>
+                    </div>
+                </button>
+                <ul class="nav-list">
+                    <div
+                        class="nav-mobile-column d-flex align-items-center justify-content-between flex-md-row flex-column">
+                        <li onclick="onSideMenuItemClicked()"><a href="#Home" class="nav-item">Home</a></li>
+                        <li onclick="onSideMenuItemClicked()"><a href="#About" class="nav-item">About</a></li>
+                        <li onclick="onSideMenuItemClicked()"><a href="#Service" class="nav-item">Service</a></li>
+                        <li onclick="onSideMenuItemClicked()"><a href="#Products" class="nav-item">Products</a></li>
+                        <li onclick="onSideMenuItemClicked()"><a href="#ContactUs" class="nav-item contact">Contact
+                                US</a></li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- home section -->
+    <section class="home active division" id="Home">
+
+        <!-- Home First Section -->
+        <div class="home-first-section">
+            <div class="home-first">
+                <div class="d-flex justify-content-between flex-md-row flex-column-reverse">
+
+                    <div
+                        class="home-first-heading text-md-start text-center d-flex align-items-md-start align-items-center flex-column">
+                        <h1 data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="500" data-aos-offset="0">
+                            Innovative Custom
+                            <span> Packaging</span>
+                        </h1>
+                        <p data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                            Discover our eco-conscious and budget-friendly packaging options, meticulously customized to
+                            fulfill your unique requirements and elevate your brand's presentation.
+                        </p>
+                        <div class="link-btn" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="900"
+                            data-aos-offset="0">
+                            <a href="#Products" class="btn" onclick="topFunction()">
+                                <img src="image/arrows.png" alt="arrow" style="width: 16px; height: 16px" />
+                                Explore Our Products
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home-first-image">
+                        <div class="d-flex align-items-center flex-column">
+                            <img src="image/home-img.png" alt="image" width="100%" data-aos="fade-zoom-in"
+                                data-aos-easing="ease" data-aos-delay="900" data-aos-offset="0" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Excellence Section -->
+        <section class="excellence">
+            <div class="excellence-section d-flex justify-content-between align-items-center flex-lg-row flex-column">
+
+                <div
+                    class="excellence-section-box d-flex align-items-center justify-content-between flex-md-row flex-column">
+
+                    <div class="vision d-flex align-items-center justify-content-center flex-column my-1"
+                        data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+                        <div class="vision-img d-flex align-items-center justify-content-center">
+                            <img src="image/shared-vision.png" alt="image" style="width: 50px; height: 50px" />
+                        </div>
+                        <div
+                            class="vision-detail d-flex align-items-center justify-content-center flex-column text-center">
+                            <h2>Our Vision</h2>
+                            <p class="mt-3">
+                                Innovative packaging solutions that protect, inspire trust, and sustain our planet.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mision d-flex align-items-center justify-content-center flex-column my-1"
+                        data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="500" data-aos-offset="0">
+                        <div class="mision-img d-flex align-items-center justify-content-center">
+                            <img src="image/mission.png" alt="image" style="width: 50px; height: 50px" />
+                        </div>
+                        <div
+                            class="mision-detail d-flex align-items-center justify-content-center flex-column text-center">
+                            <h2>Our Mision</h2>
+                            <p class="mt-3">
+                                Provide eco-friendly, high-quality packaging solutions, fostering innovation and safety
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="excellence-section-detail my-5 text-lg-start text-center" data-aos="fade-zoom-in"
+                    data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                    <h2>Innovative Packaging Solutions for Any Market</h2>
+                    <p>
+                        Innovative packaging boosts product appeal with eco-friendly materials, smart features, custom
+                        shapes, and striking designs. These strategies enhance user experience and foster customer
+                        loyalty and satisfaction.
+                    </p>
+                    <div
+                        class="excellence-detail-logo d-flex align-items-center justify-content-evenly flex-md-row flex-column">
+                        <h3>Our Partners</h3>
+                        <div>
+                            <a href="#">
+                                <img src="image/Logo-1.png" alt="logo" width="100%" />
+                            </a>
+                            <a href="#">
+                                <img src="image/Logo-2.png" alt="logo" width="100%" />
+                            </a>
+                            <a href="#">
+                                <img src="image/Logo-4.png" alt="logo" width="100%" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Choose Section -->
+        <section class="choose">
+            <div class="choose-section">
+
+                <div class="choose-rating row" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+
+                    <div class="col-md-4 col-sm-12 my-3">
+                        <div class="choose-rating-box d-flex align-items-center justify-content-center">
+                            <div class="choose-rating-img d-flex align-items-center justify-content-center">
+                                <img src="image/box.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-rating-detail">
+                                <h2 id="count1" class="display-4">23</h2>
+                                <p>Experience</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 my-3">
+                        <div class="choose-rating-box d-flex align-items-center justify-content-center">
+                            <div class="choose-rating-img d-flex align-items-center justify-content-center">
+                                <img src="image/rating-customer.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-rating-detail">
+                                <h2 id="count2" class="display-4">5.8+</h2>
+                                <p>Customer Rate</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 my-3">
+                        <div class="choose-rating-box d-flex align-items-center justify-content-center">
+                            <div class="choose-rating-img d-flex align-items-center justify-content-center">
+                                <img src="image/checked.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-rating-detail">
+                                <h2 id="count3" class="display-4">6.1+</h2>
+                                <p>Project Done</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="choose-detail d-flex align-items-center justify-content-between flex-lg-row flex-column">
+
+                    <div class="choose-detail-text mb-5 text-lg-start text-center" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+                        <h2>Why Choose Us</h2>
+                        <p>
+                            Choose us for cutting-edge packaging solutions that enhance product appeal and
+                            functionality. Our eco-friendly, personalized, and innovative designs ensure customer
+                            satisfaction and brand loyalty.
+                        </p>
+                        <div class="link-btn">
+                            <a href="#Products" class="btn" onclick="topFunction()">
+                                <img src="image/arrows.png" alt="arrow" style="width: 15px; height: 15px;">
+                                Products
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="choose-detail-img my-5 pt-4" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <img src="image/choose-1.png" alt="image" width="100%">
+                    </div>
+
+                    <div
+                        class="choose-detail-btn d-flex flex-lg-column flex-md-row flex-column flex-wrap justify-content-center">
+
+                        <div class="choose-detail-box d-flex align-items-center" data-aos="fade-zoom-in"
+                            data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                            <div class="choose-detail-box-img d-flex align-items-center justify-content-center">
+                                <img src="image/thumbs-up.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-detail-box-text">
+                                <h2>Premium Quality</h2>
+                            </div>
+                        </div>
+
+                        <div class="choose-detail-box d-flex align-items-center" data-aos="fade-zoom-in"
+                            data-aos-easing="ease" data-aos-delay="800" data-aos-offset="0">
+                            <div class="choose-detail-box-img d-flex align-items-center justify-content-center">
+                                <img src="image/customer-support.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-detail-box-text">
+                                <h2>24/7Support</h2>
+                            </div>
+                        </div>
+
+                        <div class="choose-detail-box d-flex align-items-center" data-aos="fade-zoom-in"
+                            data-aos-easing="ease" data-aos-delay="900" data-aos-offset="0">
+                            <div class="choose-detail-box-img d-flex align-items-center justify-content-center">
+                                <img src="image/eco-friendly.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-detail-box-text">
+                                <h2>Eco Friendly</h2>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Printing Section -->
+        <section class="printing">
+            <div class="printing-section">
+
+                <div class="printing-heading" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <h2>Elevate Your Product</h2>
+                    <p>
+                        Boost your product strategy with our integrated solutions assembly, custom packaging, branding,
+                        and consulting services. Partner with us for growth and a strong brand presence.
+                    </p>
+                </div>
+
+                <div class="printing-detail-box row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 my-1" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="400" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div
+                                class="printing-section-box text-lg-start text-center d-flex flex-column align-items-md-start">
+                                <div class="printing-section-box-img d-flex align-items-center justify-content-center ">
+                                    <img src="image/settings.png" alt="image" style="width: 50px; height: 50px;">
+                                </div>
+                                <h2>Product Assembly</h2>
+                                <p>
+                                    Product assembly is crucial in manufacturing, ensuring seamless integration of
+                                    components to meet high-quality standards efficiently.
+                                </p>
+                                <div class="link-btn">
+                                    <a href="#Service" class="btn" onclick="topFunction()">
+                                        <img src="image/arrows.png" alt="arrow" style="width: 16px; height: 16px;">
+                                        Service
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 my-1" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="600" data-aos-offset="0" onclick="topFunction()">
+                        <a href="#Blogs" class="nav-item">
+                            <div
+                                class="printing-section-box text-lg-start text-center d-flex flex-column align-items-md-start">
+                                <div class="printing-section-box-img d-flex align-items-center justify-content-center">
+                                    <img src="image/box 0.png" alt="image" style="width: 50px; height: 50px;">
+                                </div>
+                                <h2 class="">Custom Packaging</h2>
+                                <p class="">
+                                    Custom packaging enhances brand perception by reflecting identity and values
+                                    effectively and memorably.
+                                </p>
+                                <div class="link-btn">
+                                    <a href="#Service" class="nav-item" onclick="topFunction()">
+                                        <img src="image/arrows.png" alt="arrow" style="width: 15px; height: 15px;">
+                                        Service
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 my-1" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="600" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div
+                                class="printing-section-box text-lg-start text-center d-flex flex-column align-items-md-start">
+                                <div class="printing-section-box-img d-flex align-items-center justify-content-center">
+                                    <img src="image/lightbulb.png" alt="image" style="width: 50px; height: 50px;">
+                                </div>
+                                <h2 class="">Branding Support</h2>
+                                <p class="">
+                                    Strong branding connects your business with your audience through strategic guidance
+                                    and creative execution.
+                                </p>
+                                <div class="link-btn ">
+                                    <a href="#Service" class="nav-item" onclick="topFunction()">
+                                        <img src="image/arrows.png" alt="arrow" style="width: 15px; height: 15px;">
+                                        Service
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12 my-1" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="800" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div
+                                class="printing-section-box text-lg-start text-center d-flex flex-column align-items-md-start">
+                                <div class="printing-section-box-img d-flex align-items-center justify-content-center">
+                                    <img src="image/settings.png" alt="image" style="width: 50px; height: 50px;">
+                                </div>
+                                <h2 class="">Consulting Services</h2>
+                                <p class="">
+                                    Consulting services provide expert guidance to enhance business efficiency and drive
+                                    growth through tailored strategies.
+                                </p>
+                                <div class="link-btn">
+                                    <a href="#Service" class="nav-item" onclick="topFunction()">
+                                        <img src="image/arrows.png" alt="arrow" style="width: 15px; height: 15px;">
+                                        Service
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Ads Section -->
+        <section class="ads">
+            <div class="ads-section">
+
+                <div class="ads-heading" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <h2>Customer Satisfaction Our Best Advertisement</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="400" data-aos-offset="0">
+                        <div class="ads-box d-flex align-items-center justify-content-center flex-column my-4">
+                            <div class="ads-box-detail d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/quote.png" alt="image" style="width: 50px; height: 50px;">
+                                <p>
+                                    "Impressive custom packaging that perfectly captured my brand’s essence. Highly
+                                    satisfied with the service and quality."
+                                </p>
+                            </div>
+                            <div class="ads-box-img d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/Testi-1.jpg" alt="image"
+                                    style="width: 70px; height: 70px; border-radius: 50%;">
+                                <p>Aghnia niaa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="600" data-aos-offset="0">
+                        <div class="ads-box d-flex align-items-center justify-content-center flex-column my-4">
+                            <div class="ads-box-detail d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/quote.png" alt="image" style="width: 50px; height: 50px;">
+                                <p>
+                                    "Thrilled with the custom packaging—excellent protection and enhanced product
+                                    appeal. Highly recommend!"
+                                </p>
+                            </div>
+                            <div class="ads-box-img d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/Testi-2.jpg" alt="image"
+                                    style="width: 70px; height: 70px; border-radius: 50%;">
+                                <p>Aghnia niaa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-md-none d-lg-block" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="800" data-aos-offset="0">
+                        <div class="ads-box d-flex align-items-center justify-content-center flex-column my-4">
+                            <div class="ads-box-detail d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/quote.png" alt="image" style="width: 50px; height: 50px;">
+                                <p>
+                                    "Outstanding service and flawless custom packaging design. Made a significant impact
+                                    on our brand’s market presence."
+                                </p>
+                            </div>
+                            <div class="ads-box-img d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/Testi-3.jpg" alt="image"
+                                    style="width: 70px; height: 70px; border-radius: 50%;">
+                                <p>Aghnia niaa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Custom Section -->
+        <section class="custom">
+            <div class="custom-section d-flex align-items-center justify-content-between flex-lg-row flex-column">
+
+                <div class="custom-section-image">
+                    <div class="custom-section-image-tag d-flex align-items-center justify-content-between"
+                        data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+                        <div>
+                            <h2>Top Product</h2>
+                            <p>Explore Our Top Products</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="image/thumbs-up.png" alt="image"
+                                style="width: 33px; height: 33px; object-fit: contain;">
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-center flex-column">
+                        <img src="image/custom-1.png" alt="image" width="100%" data-aos="fade-zoom-in"
+                            data-aos-easing="ease" data-aos-delay="500" data-aos-offset="0">
+                    </div>
+
+                </div>
+
+                <div class="custom-detail">
+                    <h2 class="text-md-start text-center" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="300" data-aos-offset="0">
+                        Custom Design And Print Service
+                    </h2>
+
+                    <div class="custom-detail-box d-flex align-items-center justify-content-between"
+                        data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="500" data-aos-offset="0">
+                        <div class="custom-detail-box-text">
+                            <h2>Burger Box</h2>
+                            <div class="link-btn">
+                                <a href="#Products" class="nav-item" onclick="topFunction()">
+                                    <img src="image/arrows.png" alt="arrow" style="width: 15px; height: 15px;">
+                                    Products
+                                </a>
+                            </div>
+                        </div>
+                        <div class="custom-detail-box-img d-flex align-items-center justify-content-between">
+                            <img src="image/burger-1.png" alt="image" style="width: 170px;">
+                        </div>
+                    </div>
+
+                    <div class="custom-detail-box-2 d-flex align-items-center justify-content-between"
+                        data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="600" data-aos-offset="0">
+                        <div class="custom-detail-box-img d-flex align-items-center justify-content-between">
+                            <img src="image/Pizza-Box-Mockup-2-800x649.png" alt="image" style="width: 236px;">
+                        </div>
+                        <div class="custom-detail-box-text">
+                            <h2>Pizza Box</h2>
+                            <div class="link-btn">
+                                <a href="#Products" class="nav-item" onclick="topFunction()">
+                                    <img src="image/arrows.png" alt="arrow" style="width: 15px; height: 15px;">
+                                    Products
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="custom-detail-link text-center" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="700" data-aos-offset="0">
+                        <div class="link-btn">
+                            <a href="#Service" class="btn" onclick="topFunction()">
+                                <img src="image/arrows.png" alt="arrow" style="width: 15px; height: 15px;">
+                                Service
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Recent Section -->
+        <section class="recent">
+            <div class="recent-section">
+
+                <div class="recent-heading" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <h2>Insights & Informative Blogs</h2>
+                    <p>
+                        Discover our latest insights and informative blogs covering industry trends, packaging
+                        innovations, and expert tips for enhancing your strategy.
+                    </p>
+                </div>
+
+                <div class="recent-section-detail row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/Image-1-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2> Essential Tips for Effective Product Presentation</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="600" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Eco-Friendly Solutions for a Greener Future</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-md-none d-lg-block my-2" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-3.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>How Packaging Influences Consumer Decisions</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+            <div class="footer-section">
+                <div class="footer-detail row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-first my-3 text-md-start text-center">
+                            <a href="#Home" onclick="topFunction()"> <img src="image/footer.png" alt="image"
+                                    style="width: 229px; height: 72px;">
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-navbar my-3 text-md-start text-center">
+                            <li><a href="#Home" class="nav-item" onclick="topFunction()">Home</a></li>
+                            <li><a href="#About" class="nav-item" onclick="topFunction()">About</a></li>
+                            <li><a href="#Service" class="nav-item" onclick="topFunction()">Service</a></li>
+                            <li><a href="#Products" class="nav-item" onclick="topFunction()">Products</a></li>
+                            <li><a href="#ContactUs" class="nav-item" onclick="topFunction()">Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-company my-3 text-md-start text-center">
+                            <h2>Company</h2>
+                            <div class="d-flex flex-column align-items-md-start align-items-center">
+                                <a href="#Faqs" class="nav-item" onclick="topFunction()">FAQs</a>
+                                <a href="#Blogs" class="nav-item" onclick="topFunction()">Blogs</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-contact my-3 text-md-start text-center">
+                            <h2>Contact Us</h2>
+
+                            <div class="d-flex flex-column my-3">
+
+                                <a href="tel:+11234567890"
+                                    class="my-1 d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/phone-call.png" alt="call"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    (+654) 6478909
+                                </a>
+
+                                <a href="mailto:user@gmail.com"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/email.png" alt="mail"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    mail@pckga.id
+                                </a>
+
+                                <a href="https://www.google.com/maps/place/Inspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO/@21.1819806,72.8679784,17z/data=!4m14!1m7!3m6!1s0x3be051960d7d0381:0xe35086bb452d4ac8!2sInspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l!3m5!1s0x3be051960d7d0381:0xe35086bb452d4ac8!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l?entry=ttu"
+                                    target="_blank"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/maps-and-flags.png" alt="location"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    London Eye, London Lorem ipsum dolor sit amet.
+                                </a>
+
+                            </div>
+
+                            <div class="footer-media-icon">
+                                <a href="https://facebook.com" target="_blank">
+                                    <img src="image/facebook.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://twitter.com" target="_blank">
+                                    <img src="image/twitter.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <img src="image/youtube.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://wordpress.com" target="_blank">
+                                    <img src="image/wordpress.png" alt="image" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-copy">
+                    <p>© 2024 Packega Template • All Rights Reserved</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- button -->
+        <div class="bottom-btn">
+            <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+            <!-- scroller btn -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top" data-aos="fade-zoom-in" data-aos-easing="ease"
+                data-aos-delay="500" data-aos-offset="0">
+                <img src="image/arrows.png" alt="image">
+            </button>
+
+            <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Whatsapp Icon -->
+            <a href="https://api.whatsapp.com/send?" class="whatsapp" target="_blank" data-aos="fade-zoom-in"
+                data-aos-easing="ease" data-aos-delay="500" data-aos-offset="0">
+                <i class="fa fa-whatsapp my-whatsapp"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- about section -->
+    <section class="about division" id="About">
+
+        <!-- About heading -->
+        <div class="about-first-section">
+            <div class="about-heading text-center">
+                <h1>About Us</h1>
+                <div class="my-4">
+                    <a href="#Home" class="nav-item" onclick="topFunction()">Home</a>
+                    <img src="image/right.png" alt="image" style="width: 23px; height: 23px;">
+                    <a href="#About" class="nav-item" onclick="topFunction()">About</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Excellence Section -->
+        <section class="excellence">
+            <div class="excellence-section d-flex justify-content-between align-items-center flex-lg-row flex-column">
+
+                <div
+                    class="excellence-section-box d-flex align-items-center justify-content-between flex-md-row flex-column">
+
+                    <div class="vision d-flex align-items-center justify-content-center flex-column my-1"
+                        data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="500" data-aos-offset="0">
+                        <div class="vision-img d-flex align-items-center justify-content-center">
+                            <img src="image/shared-vision.png" alt="image" style="width: 50px; height: 50px" />
+                        </div>
+                        <div
+                            class="vision-detail d-flex align-items-center justify-content-center flex-column text-center">
+                            <h2>Our Vision</h2>
+                            <p class="mt-3">
+                                Innovative packaging solutions that protect, inspire trust, and sustain our planet
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mision d-flex align-items-center justify-content-center flex-column my-1"
+                        data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="600" data-aos-offset="0">
+                        <div class="mision-img d-flex align-items-center justify-content-center">
+                            <img src="image/mission.png" alt="image" style="width: 50px; height: 50px" />
+                        </div>
+                        <div
+                            class="mision-detail d-flex align-items-center justify-content-center flex-column text-center">
+                            <h2>Our Mision</h2>
+                            <p class="mt-3">
+                                Provide eco-friendly, high-quality packaging solutions, fostering innovation and safety
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="excellence-section-detail my-5 text-lg-start text-center" data-aos="fade-zoom-in"
+                    data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                    <h2>Innovative Packaging Solutions for Any Market</h2>
+                    <p>
+                        Innovative packaging boosts product appeal with eco-friendly materials, smart features, custom
+                        shapes, and striking designs. These strategies enhance user experience and foster customer
+                        loyalty and satisfaction.
+                    </p>
+                    <div
+                        class="excellence-detail-logo d-flex align-items-center justify-content-evenly flex-md-row flex-column">
+                        <h3>Our Partners</h3>
+                        <div>
+                            <a href="#">
+                                <img src="image/Logo-1.png" alt="logo" width="100%" />
+                            </a>
+                            <a href="#">
+                                <img src="image/Logo-2.png" alt="logo" width="100%" />
+                            </a>
+                            <a href="#">
+                                <img src="image/Logo-4.png" alt="logo" width="100%" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Choose Section -->
+        <section class="choose">
+            <div class="choose-section">
+
+                <div class="choose-rating row" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+
+                    <div class="col-md-4 col-sm-12 my-3">
+                        <div class="choose-rating-box d-flex align-items-center justify-content-center">
+                            <div class="choose-rating-img d-flex align-items-center justify-content-center">
+                                <img src="image/box.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-rating-detail">
+                                <h2 id="count1" class="display-4">23</h2>
+                                <p>Experience</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 my-3">
+                        <div class="choose-rating-box d-flex align-items-center justify-content-center">
+                            <div class="choose-rating-img d-flex align-items-center justify-content-center">
+                                <img src="image/rating-customer.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-rating-detail">
+                                <h2 id="count2" class="display-4">5.8+</h2>
+                                <p>Customer Rate</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 my-3">
+                        <div class="choose-rating-box d-flex align-items-center justify-content-center">
+                            <div class="choose-rating-img d-flex align-items-center justify-content-center">
+                                <img src="image/checked.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-rating-detail">
+                                <h2 id="count3" class="display-4">6.1+</h2>
+                                <p>Project Done</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="choose-detail d-flex align-items-center justify-content-between flex-lg-row flex-column">
+
+                    <div class="choose-detail-text mb-5 text-lg-start text-center" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+                        <h2>Why Choose Us</h2>
+                        <p>
+                            Choose us for cutting-edge packaging solutions that enhance product appeal and
+                            functionality. Our eco-friendly, personalized, and innovative designs ensure customer
+                            satisfaction and brand loyalty.
+                        </p>
+                        <div class="link-btn">
+                            <a href="#Products" class="btn" onclick="topFunction()">
+                                <img src="image/arrows.png" alt="arrow" style="width: 15px; height: 15px;">
+                                Products
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="choose-detail-img my-5 pt-4" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <img src="image/choose-1.png" alt="image" width="100%">
+                    </div>
+
+                    <div
+                        class="choose-detail-btn d-flex flex-lg-column flex-md-row flex-column flex-wrap justify-content-center">
+
+                        <div class="choose-detail-box d-flex align-items-center" data-aos="fade-zoom-in"
+                            data-aos-easing="ease" data-aos-delay="600" data-aos-offset="0">
+                            <div class="choose-detail-box-img d-flex align-items-center justify-content-center">
+                                <img src="image/thumbs-up.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-detail-box-text">
+                                <h2>Premium Quality</h2>
+                            </div>
+                        </div>
+
+                        <div class="choose-detail-box d-flex align-items-center" data-aos="fade-zoom-in"
+                            data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                            <div class="choose-detail-box-img d-flex align-items-center justify-content-center">
+                                <img src="image/customer-support.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-detail-box-text">
+                                <h2>24/7Support</h2>
+                            </div>
+                        </div>
+
+                        <div class="choose-detail-box d-flex align-items-center" data-aos="fade-zoom-in"
+                            data-aos-easing="ease" data-aos-delay="800" data-aos-offset="0">
+                            <div class="choose-detail-box-img d-flex align-items-center justify-content-center">
+                                <img src="image/eco-friendly.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="choose-detail-box-text">
+                                <h2>Eco Friendly</h2>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--  Found Section -->
+        <section class="found">
+            <div class="found-section row align-items-center">
+
+                <div class="col-md-5" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <img src="image/delivery-girl-courier.png" alt="image" width="85%" class="found-image">
+                </div>
+
+                <div class="col-md-7" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <div class="found-detail">
+                        <h2>Can't Find Your Answers? Contact Us Now!</h2>
+                        <p class="pb-2">
+                            Have questions or need assistance? Contact us today—we're here to help with all your
+                            packaging needs!
+                        </p>
+                    </div>
+                    <div class="found-btn d-flex justify-content-md-between justify-content-center flex-wrap">
+                        <a href="tel:(+765) 7655489">
+                            <div class="found-detail-btn-first d-flex align-items-center my-2">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="image/phone-call.png" alt="image" style="width: 33px; height: 33px;">
+                                </div>
+                                <h2>(+765) 7655489</h2>
+                            </div>
+                        </a>
+                        <a href="mailto:mail@pckga.id">
+                            <div class="found-detail-btn-second d-flex align-items-center my-2">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="image/email found.png" alt="image" style="width: 33px; height: 33px;">
+                                </div>
+                                <h2>mail@pckga.id</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Recent Section -->
+        <section class="recent">
+            <div class="recent-section">
+
+                <div class="recent-heading" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <h2>Insights & Informative Blogs</h2>
+                    <p>
+                        Discover our latest insights and informative blogs covering industry trends, packaging
+                        innovations, and expert tips for enhancing your strategy.
+                    </p>
+                </div>
+
+                <div class="recent-section-detail row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/Image-1-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Essential Tips for Effective Product Presentation</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="700" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Eco-Friendly Solutions for a Greener Future
+                                    </h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-md-none d-lg-block my-2" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="900" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-3.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>How Packaging Influences Consumer Decisions</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+            <div class="footer-section">
+                <div class="footer-detail row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-first my-3 text-md-start text-center">
+                            <a href="#Home" onclick="topFunction()"> <img src="image/footer.png" alt="image"
+                                    style="width: 229px; height: 72px;">
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-navbar my-3 text-md-start text-center">
+                            <li><a href="#Home" class="nav-item" onclick="topFunction()">Home</a></li>
+                            <li><a href="#About" class="nav-item" onclick="topFunction()">About</a></li>
+                            <li><a href="#Service" class="nav-item" onclick="topFunction()">Service</a></li>
+                            <li><a href="#Products" class="nav-item" onclick="topFunction()">Products</a></li>
+                            <li><a href="#ContactUs" class="nav-item" onclick="topFunction()">Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-company my-3 text-md-start text-center">
+                            <h2>Company</h2>
+                            <div class="d-flex flex-column align-items-md-start align-items-center">
+                                <a href="#Faqs" class="nav-item" onclick="topFunction()">FAQs</a>
+                                <a href="#Blogs" class="nav-item" onclick="topFunction()">Blogs</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-contact my-3 text-md-start text-center">
+                            <h2>Contact Us</h2>
+
+                            <div class="d-flex flex-column my-3">
+
+                                <a href="tel:+11234567890"
+                                    class="my-1 d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/phone-call.png" alt="call"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    (+654) 6478909
+                                </a>
+
+                                <a href="mailto:user@gmail.com"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/email.png" alt="mail"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    mail@pckga.id
+                                </a>
+
+                                <a href="https://www.google.com/maps/place/Inspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO/@21.1819806,72.8679784,17z/data=!4m14!1m7!3m6!1s0x3be051960d7d0381:0xe35086bb452d4ac8!2sInspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l!3m5!1s0x3be051960d7d0381:0xe35086bb452d4ac8!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l?entry=ttu"
+                                    target="_blank"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/maps-and-flags.png" alt="location"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    London Eye, London Lorem ipsum dolor sit amet.
+                                </a>
+
+                            </div>
+
+                            <div class="footer-media-icon">
+                                <a href="https://facebook.com" target="_blank">
+                                    <img src="image/facebook.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://twitter.com" target="_blank">
+                                    <img src="image/twitter.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <img src="image/youtube.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://wordpress.com" target="_blank">
+                                    <img src="image/wordpress.png" alt="image" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-copy">
+                    <p>© 2024 Packega Template • All Rights Reserved</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="bottom-btn">
+            <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+            <!-- scroller btn -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <img src="image/arrows.png" alt="image">
+            </button>
+
+            <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Whatsapp Icon -->
+            <a href="https://api.whatsapp.com/send?" class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-whatsapp"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- service section -->
+    <section class="service division" id="Service">
+
+        <!-- Service heading -->
+        <div class="services-first-section">
+            <div class="services-heading text-center">
+                <h1>Service</h1>
+                <div class="my-4">
+                    <a href="#Home" class="nav-item" onclick="topFunction()">Home</a>
+                    <img src="image/right.png" alt="image" style="width: 23px; height: 23px;">
+                    <a href="#About" class="nav-item" onclick="topFunction()">Service</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Printing Section -->
+        <section class="printing">
+            <div class="printing-section">
+
+                <div class="printing-detail-box row">
+
+                    <div class="col-md-6 col-sm-12 my-1" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="300" data-aos-offset="0">
+                        <a href="#ContactUs" class="nav-item" onclick="topFunction()">
+                            <div class="printing-section-box service-printing text-center d-flex flex-column">
+                                <div class="service-section-printing">
+                                    <img src="image/Testi-1.jpg" alt="img" width="100%">
+                                </div>
+                                <h2>Product Assembly</h2>
+                                <div class="link-btn">
+                                    <a href="#ContactUs" class="nav-item" onclick="topFunction()">
+                                        <img src="image/arrows.png" alt="arrow" style="width: 16px; height: 16px;">
+                                        ContactUs
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 my-1" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="400" data-aos-offset="0">
+                        <a href="#ContactUs" class="nav-item" onclick="topFunction()">
+                            <div class="printing-section-box service-printing text-center d-flex flex-column">
+                                <div class="service-section-printing">
+                                    <img src="image/Testi-2.jpg" alt="img" width="100%">
+                                </div>
+                                <h2>Custom Packaging</h2>
+                                <div class="link-btn">
+                                    <a href="#ContactUs" class="nav-item" onclick="topFunction()">
+                                        <img src="image/arrows.png" alt="arrow" style="width: 16px; height: 16px;">
+                                        ContactUs
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 my-1" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <a href="#ContactUs" class="nav-item" onclick="topFunction()">
+                            <div class="printing-section-box service-printing text-center d-flex flex-column">
+                                <div class="service-section-printing">
+                                    <img src="image/Testi-3.jpg" alt="img" width="100%">
+                                </div>
+                                <h2>Branding Support</h2>
+                                <div class="link-btn">
+                                    <a href="#ContactUs" class="nav-item" onclick="topFunction()">
+                                        <img src="image/arrows.png" alt="arrow" style="width: 16px; height: 16px;">
+                                        ContactUs
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 my-1" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="600" data-aos-offset="0">
+                        <a href="#ContactUs" class="nav-item" onclick="topFunction()">
+                            <div class="printing-section-box service-printing text-center d-flex flex-column">
+                                <div class="service-section-printing">
+                                    <img src="image/Image-1-2.jpg" alt="img" width="100%">
+                                </div>
+                                <h2>Consulting Services</h2>
+                                <div class="link-btn">
+                                    <a href="#ContactUs" class="nav-item" onclick="topFunction()">
+                                        <img src="image/arrows.png" alt="arrow" style="width: 16px; height: 16px;">
+                                        ContactUs
+                                    </a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Ads Section -->
+        <section class="ads">
+            <div class="ads-section">
+
+                <div class="ads-heading" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <h2>Customer Satisfaction Our Best Advertisement</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="300" data-aos-offset="0">
+                        <div class="ads-box d-flex align-items-center justify-content-center flex-column my-4">
+                            <div class="ads-box-detail d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/quote.png" alt="image" style="width: 50px; height: 50px;">
+                                <p>
+                                    "Impressive custom packaging that perfectly captured my brand’s essence. Highly
+                                    satisfied with the service and quality."
+                                </p>
+                            </div>
+                            <div class="ads-box-img d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/Testi-1.jpg" alt="image"
+                                    style="width: 70px; height: 70px; border-radius: 50%;">
+                                <p>Aghnia niaa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <div class="ads-box d-flex align-items-center justify-content-center flex-column my-4">
+                            <div class="ads-box-detail d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/quote.png" alt="image" style="width: 50px; height: 50px;">
+                                <p>
+                                    "Thrilled with the custom packaging—excellent protection and enhanced product
+                                    appeal. Highly recommend!"
+                                </p>
+                            </div>
+                            <div class="ads-box-img d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/Testi-2.jpg" alt="image"
+                                    style="width: 70px; height: 70px; border-radius: 50%;">
+                                <p>Aghnia niaa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-md-none d-lg-block" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                        <div class="ads-box d-flex align-items-center justify-content-center flex-column my-4">
+                            <div class="ads-box-detail d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/quote.png" alt="image" style="width: 50px; height: 50px;">
+                                <p>
+                                    "Outstanding service and flawless custom packaging design. Made a significant impact
+                                    on our brand’s market presence."
+                                </p>
+                            </div>
+                            <div class="ads-box-img d-flex align-items-center justify-content-center flex-column">
+                                <img src="image/Testi-3.jpg" alt="image"
+                                    style="width: 70px; height: 70px; border-radius: 50%;">
+                                <p>Aghnia niaa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Recent Section -->
+        <section class="recent">
+            <div class="recent-section">
+
+                <div class="recent-heading">
+                    <h2 data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+                        Insights & Informative Blogs
+                    </h2>
+                    <p data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="400" data-aos-offset="0">
+                        Discover our latest insights and informative blogs covering industry trends, packaging
+                        innovations, and expert tips for enhancing your strategy.
+                    </p>
+                </div>
+
+                <div class="recent-section-detail row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/Image-1-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Essential Tips for Effective Product Presentation
+                                    </h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="600" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Eco-Friendly Solutions for a Greener Future</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-md-none d-lg-block my-2" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-3.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>How Packaging Influences Consumer Decisions</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+            <div class="footer-section">
+                <div class="footer-detail row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-first my-3 text-md-start text-center">
+                            <a href="#Home" onclick="topFunction()"> <img src="image/footer.png" alt="image"
+                                    style="width: 229px; height: 72px;">
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-navbar my-3 text-md-start text-center">
+                            <li><a href="#Home" class="nav-item" onclick="topFunction()">Home</a></li>
+                            <li><a href="#About" class="nav-item" onclick="topFunction()">About</a></li>
+                            <li><a href="#Service" class="nav-item" onclick="topFunction()">Service</a></li>
+                            <li><a href="#Products" class="nav-item" onclick="topFunction()">Products</a></li>
+                            <li><a href="#ContactUs" class="nav-item" onclick="topFunction()">Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-company my-3 text-md-start text-center">
+                            <h2>Company</h2>
+                            <div class="d-flex flex-column align-items-md-start align-items-center">
+                                <a href="#Faqs" class="nav-item" onclick="topFunction()">FAQs</a>
+                                <a href="#Blogs" class="nav-item" onclick="topFunction()">Blogs</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-contact my-3 text-md-start text-center">
+                            <h2>Contact Us</h2>
+
+                            <div class="d-flex flex-column my-3">
+
+                                <a href="tel:+11234567890"
+                                    class="my-1 d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/phone-call.png" alt="call"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    (+654) 6478909
+                                </a>
+
+                                <a href="mailto:user@gmail.com"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/email.png" alt="mail"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    mail@pckga.id
+                                </a>
+
+                                <a href="https://www.google.com/maps/place/Inspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO/@21.1819806,72.8679784,17z/data=!4m14!1m7!3m6!1s0x3be051960d7d0381:0xe35086bb452d4ac8!2sInspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l!3m5!1s0x3be051960d7d0381:0xe35086bb452d4ac8!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l?entry=ttu"
+                                    target="_blank"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/maps-and-flags.png" alt="location"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    London Eye, London Lorem ipsum dolor sit amet.
+                                </a>
+
+                            </div>
+
+                            <div class="footer-media-icon">
+                                <a href="https://facebook.com" target="_blank">
+                                    <img src="image/facebook.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://twitter.com" target="_blank">
+                                    <img src="image/twitter.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <img src="image/youtube.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://wordpress.com" target="_blank">
+                                    <img src="image/wordpress.png" alt="image" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-copy">
+                    <p>© 2024 Packega Template • All Rights Reserved</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="bottom-btn">
+            <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+            <!-- scroller btn -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <img src="image/arrows.png" alt="image">
+            </button>
+
+            <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Whatsapp Icon -->
+            <a href="https://api.whatsapp.com/send?" class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-whatsapp"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- product section -->
+    <section class="products division" id="Products">
+
+        <!-- products heading -->
+        <div class="products-first-section">
+            <div class="products-heading text-center">
+                <h1>Products</h1>
+                <div class="my-4">
+                    <a href="#Home" class="nav-item" onclick="topFunction()">Home</a>
+                    <img src="image/right.png" alt="image" style="width: 23px; height: 23px;">
+                    <a href="#Products" class="nav-item" onclick="topFunction()">Products</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- product-gellary -->
+        <div class="product-gellary">
+            <div class="product-gellary-img">
+                <div class="uk-child-width-1-3@m uk-child-width-1-2@s" uk-grid="masonry: pack"
+                    uk-lightbox="animation: slide">
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="400" data-aos-offset="0">
+                        <a class="uk-inline" href="image/proudct-img-1.jpg">
+                            <img src="image/proudct-img-1.jpg" width="1800" height="1200" alt="image">
+                            <h2 class="product-img-name text-center">Image</h2>
+                        </a>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="500" data-aos-offset="0">
+                        <a class="uk-inline" href="image/product-img-2.jpg">
+                            <img src="image/product-img-2.jpg" width="1800" height="1200" alt="image">
+                            <h2 class="product-img-name text-center">Image</h2>
+                        </a>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="600" data-aos-offset="0">
+                        <a class="uk-inline" href="image/product-img-3.jpg">
+                            <img src="image/product-img-3.jpg" width="1800" height="1200" alt="image">
+                            <h2 class="product-img-name text-center">Image</h2>
+                        </a>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                        <a class="uk-inline" href="image/product-img-4.jpg">
+                            <img src="image/product-img-4.jpg" width="1800" height="1200" alt="image">
+                            <h2 class="product-img-name text-center">Image</h2>
+                        </a>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="800" data-aos-offset="0">
+                        <a class="uk-inline" href="image/product-img-5.jpg">
+                            <img src="image/product-img-5.jpg" width="1800" height="1200" alt="image">
+                            <h2 class="product-img-name text-center">Image</h2>
+                        </a>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="900" data-aos-offset="0">
+                        <a class="uk-inline" href="image/product-img-6.jpg">
+                            <img src="image/product-img-6.jpg" width="1800" height="1200" alt="image">
+                            <h2 class="product-img-name text-center">Image</h2>
+                        </a>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="1000" data-aos-offset="0">
+                        <a class="uk-inline" href="image/product-img-7.jpg">
+                            <img src="image/product-img-7.jpg" width="1800" height="1200" alt="image">
+                            <h2 class="product-img-name text-center">Image</h2>
+                        </a>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="1200" data-aos-offset="0">
+                        <a class="uk-inline" href="image/product-img-8.jpg">
+                            <img src="image/product-img-8.jpg" width="1800" height="1200" alt="image">
+                            <h2 class="product-img-name text-center">Image</h2>
+                        </a>
+                    </div>
+                    <div data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="1300" data-aos-offset="0">
+                        <a class="uk-inline" href="image/product-img-5.jpg">
+                            <img src="image/product-img-5.jpg" width="1800" height="1200" alt="image">
+                            <h2 class="product-img-name text-center">Image</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <section class="footer" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+            <div class="footer-section">
+                <div class="footer-detail row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-first my-3 text-md-start text-center">
+                            <a href="#Home" onclick="topFunction()"> <img src="image/footer.png" alt="image"
+                                    style="width: 229px; height: 72px;">
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-navbar my-3 text-md-start text-center">
+                            <li><a href="#Home" class="nav-item" onclick="topFunction()">Home</a></li>
+                            <li><a href="#About" class="nav-item" onclick="topFunction()">About</a></li>
+                            <li><a href="#Service" class="nav-item" onclick="topFunction()">Service</a></li>
+                            <li><a href="#Products" class="nav-item" onclick="topFunction()">Products</a></li>
+                            <li><a href="#ContactUs" class="nav-item" onclick="topFunction()">Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-company my-3 text-md-start text-center">
+                            <h2>Company</h2>
+                            <div class="d-flex flex-column align-items-md-start align-items-center">
+                                <a href="#Faqs" class="nav-item" onclick="topFunction()">FAQs</a>
+                                <a href="#Blogs" class="nav-item" onclick="topFunction()">Blogs</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-contact my-3 text-md-start text-center">
+                            <h2>Contact Us</h2>
+
+                            <div class="d-flex flex-column my-3">
+
+                                <a href="tel:+11234567890"
+                                    class="my-1 d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/phone-call.png" alt="call"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    (+654) 6478909
+                                </a>
+
+                                <a href="mailto:user@gmail.com"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/email.png" alt="mail"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    mail@pckga.id
+                                </a>
+
+                                <a href="https://www.google.com/maps/place/Inspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO/@21.1819806,72.8679784,17z/data=!4m14!1m7!3m6!1s0x3be051960d7d0381:0xe35086bb452d4ac8!2sInspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l!3m5!1s0x3be051960d7d0381:0xe35086bb452d4ac8!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l?entry=ttu"
+                                    target="_blank"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/maps-and-flags.png" alt="location"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    London Eye, London Lorem ipsum dolor sit amet.
+                                </a>
+
+                            </div>
+
+                            <div class="footer-media-icon">
+                                <a href="https://facebook.com" target="_blank">
+                                    <img src="image/facebook.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://twitter.com" target="_blank">
+                                    <img src="image/twitter.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <img src="image/youtube.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://wordpress.com" target="_blank">
+                                    <img src="image/wordpress.png" alt="image" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-copy">
+                    <p>© 2024 Packega Template • All Rights Reserved</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="bottom-btn">
+            <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+            <!-- scroller btn -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <img src="image/arrows.png" alt="image">
+            </button>
+
+            <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Whatsapp Icon -->
+            <a href="https://api.whatsapp.com/send?" class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-whatsapp"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- contact section -->
+    <section class="contactUs division" id="ContactUs">
+
+        <!-- products heading -->
+        <div class="contactUs-first-section">
+            <div class="contactUs-heading text-center">
+                <h1>ContactUs</h1>
+                <div class="my-4">
+                    <a href="#Home" class="nav-item" onclick="topFunction()">Home</a>
+                    <img src="image/right.png" alt="image" style="width: 23px; height: 23px;">
+                    <a href="#ContactUs" class="nav-item" onclick="topFunction()">ContactUs</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact-box -->
+        <div class="contact-section-contact-box">
+            <div class="d-flex flex-md-row flex-column">
+
+                <div class="contact-box-detail text-md-start text-center" data-aos="fade-zoom-in" data-aos-easing="ease"
+                    data-aos-delay="300" data-aos-offset="0">
+                    <h2>Get In Touch !!</h2>
+                    <p>
+                        Contact us for expert packaging solutions.
+                    </p>
+                    <div class="contact-section-box-button">
+
+                        <a href="tel:(+654) 6478909" class="contact-box-button d-flex align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="image/phone-call.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="contact-box-text">
+                                <h2>(+654) 6478909</h2>
+                                <p>Contact us at for assistance.</p>
+                            </div>
+                        </a>
+
+
+                        <a href="mailto:mail@pckga.id" class="contact-box-button d-flex align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="image/email.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="contact-box-text">
+                                <h2>mail@pckga.id</h2>
+                                <p>Contact us at for assistance.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.google.com/maps/place/Inspirefox+Design+Institute/@21.1826943,72.8683889,17z/data=!3m1!4b1!4m6!3m5!1s0x3be04fe72e9f29bb:0x66fdb216b670afdb!8m2!3d21.1826893!4d72.8709638!16s%2Fg%2F11v0b2tc0_?entry=ttu"
+                            target="_blank" class="contact-box-button d-flex align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="image/contact-loc.png" alt="image" style="width: 33px; height: 33px;">
+                            </div>
+                            <div class="contact-box-text">
+                                <h2>
+                                    London Eye, London</h2>
+                                <p>Contact us at for office.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-box my-2" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="500"
+                    data-aos-offset="0">
+                    <form>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+
+                        <input type="tel" id="phone" name="phone" placeholder="Number" required>
+
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+
+                        <textarea id="address" name="address" rows="4" placeholder="Address" required></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Map -->
+        <iframe data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36078.497785847365!2d72.86390890099808!3d21.193495405021483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1718097461526!5m2!1sen!2sin"
+            width="100%" height="300px" style="border:0;" allowfullscreen="">
+        </iframe>
+
+        <!-- Footer Section -->
+        <section class="footer" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+            <div class="footer-section">
+                <div class="footer-detail row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-first my-3 text-md-start text-center">
+                            <a href="#Home" onclick="topFunction()"> <img src="image/footer.png" alt="image"
+                                    style="width: 229px; height: 72px;">
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-navbar my-3 text-md-start text-center">
+                            <li><a href="#Home" class="nav-item" onclick="topFunction()">Home</a></li>
+                            <li><a href="#About" class="nav-item" onclick="topFunction()">About</a></li>
+                            <li><a href="#Service" class="nav-item" onclick="topFunction()">Service</a></li>
+                            <li><a href="#Products" class="nav-item" onclick="topFunction()">Products</a></li>
+                            <li><a href="#ContactUs" class="nav-item" onclick="topFunction()">Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-company my-3 text-md-start text-center">
+                            <h2>Company</h2>
+                            <div class="d-flex flex-column align-items-md-start align-items-center">
+                                <a href="#Faqs" class="nav-item" onclick="topFunction()">FAQs</a>
+                                <a href="#Blogs" class="nav-item" onclick="topFunction()">Blogs</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-contact my-3 text-md-start text-center">
+                            <h2>Contact Us</h2>
+
+                            <div class="d-flex flex-column my-3">
+
+                                <a href="tel:+11234567890"
+                                    class="my-1 d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/phone-call.png" alt="call"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    (+654) 6478909
+                                </a>
+
+                                <a href="mailto:user@gmail.com"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/email.png" alt="mail"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    mail@pckga.id
+                                </a>
+
+                                <a href="https://www.google.com/maps/place/Inspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO/@21.1819806,72.8679784,17z/data=!4m14!1m7!3m6!1s0x3be051960d7d0381:0xe35086bb452d4ac8!2sInspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l!3m5!1s0x3be051960d7d0381:0xe35086bb452d4ac8!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l?entry=ttu"
+                                    target="_blank"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/maps-and-flags.png" alt="location"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    London Eye, London Lorem ipsum dolor sit amet.
+                                </a>
+
+                            </div>
+
+                            <div class="footer-media-icon">
+                                <a href="https://facebook.com" target="_blank">
+                                    <img src="image/facebook.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://twitter.com" target="_blank">
+                                    <img src="image/twitter.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <img src="image/youtube.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://wordpress.com" target="_blank">
+                                    <img src="image/wordpress.png" alt="image" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-copy">
+                    <p>© 2024 Packega Template • All Rights Reserved</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="bottom-btn">
+            <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+            <!-- scroller btn -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <img src="image/arrows.png" alt="image">
+            </button>
+
+            <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Whatsapp Icon -->
+            <a href="https://api.whatsapp.com/send?" class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-whatsapp"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- blog section -->
+    <section class="blog division" id="Blogs">
+
+        <!-- blog heading -->
+        <div class="blog-first-section">
+            <div class="blog-heading text-center">
+                <h1>Blog</h1>
+                <div class="my-4">
+                    <a href="#Home" class="nav-item" onclick="topFunction()">Home</a>
+                    <img src="image/right.png" alt="image" style="width: 23px; height: 23px;">
+                    <a href="#Blogs" class="nav-item" onclick="topFunction()">Blogs</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Section -->
+        <section class="recent">
+            <div class="recent-section">
+
+                <div class="recent-section-detail row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="300" data-aos-offset="0">
+                        <a href="#Paper" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/Image-1-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Essential Tips for Effective Product Presentation</h2>
+                                    <div class="link-btn">
+                                        <a href="#Paper" class="btn" onclick="topFunction()">
+                                            Product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="400" data-aos-offset="0">
+                        <a href="#Paper" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Eco-Friendly Solutions for a Greener Future</h2>
+                                    <div class="link-btn">
+                                        <a href="#Paper" class="btn" onclick="topFunction()">
+                                            Product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-md-none d-lg-block my-2" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="500" data-aos-offset="0">
+                        <a href="#Paper" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-3.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2> Creating a Lasting Impression</h2>
+                                    <div class="link-btn">
+                                        <a href="#Paper" class="btn" onclick="topFunction()">
+                                            Product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="recent-section-detail row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="600" data-aos-offset="0">
+                        <a href="#Paper" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/Image-1-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2> Eco-Friendly Solutions for a Greener Future</h2>
+                                    <div class="link-btn">
+                                        <a href="#Paper" class="btn" onclick="topFunction()">
+                                            Product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="700" data-aos-offset="0">
+                        <a href="#Paper" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2> The Journey of Effective Packaging</h2>
+                                    <div class="link-btn">
+                                        <a href="#Paper" class="btn" onclick="topFunction()">
+                                            Product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-md-none d-lg-block my-2" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="800" data-aos-offset="0">
+                        <a href="#Paper" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-3.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>How Packaging Influences Consumer Decisions</h2>
+                                    <div class="link-btn">
+                                        <a href="#Paper" class="btn" onclick="topFunction()">
+                                            Product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="recent-section-detail row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="900" data-aos-offset="0">
+                        <a href="#Paper" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/Image-1-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Eco-Friendly Solutions for a Greener Future</h2>
+                                    <div class="link-btn">
+                                        <a href="#Paper" class="btn" onclick="topFunction()">
+                                            Product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="1000" data-aos-offset="0">
+                        <a href="#Paper" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Essential Tips for Effective Product Presentation</h2>
+                                    <div class="link-btn">
+                                        <a href="#Paper" class="btn" onclick="topFunction()">
+                                            Product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-md-none d-lg-block my-2" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="1200" data-aos-offset="0">
+                        <a href="#Paper" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-3.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>How Packaging Influences Consumer Decisions</h2>
+                                    <div class="link-btn">
+                                        <a href="#Paper" class="btn" onclick="topFunction()">
+                                            Product
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+            <div class="footer-section">
+                <div class="footer-detail row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-first my-3 text-md-start text-center">
+                            <a href="#Home" onclick="topFunction()"> <img src="image/footer.png" alt="image"
+                                    style="width: 229px; height: 72px;">
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-navbar my-3 text-md-start text-center">
+                            <li><a href="#Home" class="nav-item" onclick="topFunction()">Home</a></li>
+                            <li><a href="#About" class="nav-item" onclick="topFunction()">About</a></li>
+                            <li><a href="#Service" class="nav-item" onclick="topFunction()">Service</a></li>
+                            <li><a href="#Products" class="nav-item" onclick="topFunction()">Products</a></li>
+                            <li><a href="#ContactUs" class="nav-item" onclick="topFunction()">Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-company my-3 text-md-start text-center">
+                            <h2>Company</h2>
+                            <div class="d-flex flex-column align-items-md-start align-items-center">
+                                <a href="#Faqs" class="nav-item" onclick="topFunction()">FAQs</a>
+                                <a href="#Blogs" class="nav-item" onclick="topFunction()">Blogs</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-contact my-3 text-md-start text-center">
+                            <h2>Contact Us</h2>
+
+                            <div class="d-flex flex-column my-3">
+
+                                <a href="tel:+11234567890"
+                                    class="my-1 d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/phone-call.png" alt="call"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    (+654) 6478909
+                                </a>
+
+                                <a href="mailto:user@gmail.com"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/email.png" alt="mail"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    mail@pckga.id
+                                </a>
+
+                                <a href="https://www.google.com/maps/place/Inspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO/@21.1819806,72.8679784,17z/data=!4m14!1m7!3m6!1s0x3be051960d7d0381:0xe35086bb452d4ac8!2sInspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l!3m5!1s0x3be051960d7d0381:0xe35086bb452d4ac8!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l?entry=ttu"
+                                    target="_blank"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/maps-and-flags.png" alt="location"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    London Eye, London Lorem ipsum dolor sit amet.
+                                </a>
+
+                            </div>
+
+                            <div class="footer-media-icon">
+                                <a href="https://facebook.com" target="_blank">
+                                    <img src="image/facebook.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://twitter.com" target="_blank">
+                                    <img src="image/twitter.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <img src="image/youtube.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://wordpress.com" target="_blank">
+                                    <img src="image/wordpress.png" alt="image" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-copy">
+                    <p>© 2024 Packega Template • All Rights Reserved</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="bottom-btn">
+            <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+            <!-- scroller btn -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <img src="image/arrows.png" alt="image">
+            </button>
+
+            <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Whatsapp Icon -->
+            <a href="https://api.whatsapp.com/send?" class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-whatsapp"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- paper section -->
+    <section class="paper division" id="Paper">
+
+        <!-- paper heading -->
+        <div class="paper-first-section">
+            <div class="paper-heading text-center">
+                <h1>Eco-Friendly Solutions for a Greener Future</h1>
+                <div class="my-4 d-flex justify-content-center">
+                    <div class="d-flex align-items-center justify-content-center px-5">
+                        <img src="image/user.png" alt="image" style="width: 23px; height: 23px; margin-right: 8px;">
+                        <p style="padding: 0; margin: 0;">Admin</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img src="image/calendar.png" alt="image" style="width: 23px; height: 23px; margin-right: 8px;">
+                        <p style="padding: 0; margin: 0;">March 14, 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- paper-blog -->
+        <div class="paper-blog">
+            <div class="paper-blog-img d-flex align-items-center justify-content-center">
+                <img src="image/Testi-1.jpg" alt="image">
+            </div>
+            <div class="paper-detail d-flex align-items-start justify-content-center flex-column"
+                data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+                <h3>
+                    Packaging Details
+                </h3>
+                <p>
+                    Our packaging solutions are designed to meet your unique needs, ensuring quality, functionality, and
+                    aesthetic appeal. From custom designs to eco-friendly materials, we provide comprehensive packaging
+                    options that enhance your product's presentation and protection.
+                </p>
+                <img src="image/Testi-1.jpg" alt="image">
+                <p>
+                    we specialize in crafting packaging solutions that not only meet but exceed your expectations.
+                    Whether you require intricate designs, sustainable materials, or special branding considerations,
+                    our team is dedicated to delivering tailored solutions that elevate your product's appeal and ensure
+                    optimal protection during transit and display. Discover how our expertise can transform your
+                    packaging into a powerful brand asset.
+                </p>
+                <p>
+                    In addition to our customizable packaging solutions, we offer eco-friendly alternatives that align
+                    with sustainable practices. From biodegradable materials to recyclable options, we prioritize
+                    environmental responsibility without compromising on quality or functionality. Choose packaging that
+                    not only protects your products but also contributes positively to the planet.
+                </p>
+            </div>
+        </div>
+
+        <!-- Faqs dropdown -->
+        <section class="faqs-dropdown">
+            <div class="faqs-dropdown-section">
+                <div class=" d-flex align-items-center justify-content-center" data-aos="fade-zoom-in"
+                    data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+
+                    <div class="second-accordion">
+                        <div class="dropdown-para">
+                            <p>
+                                If you have any other questions or need further assistance, please don't hesitate to get
+                                in touch. We're here to provide expert guidance and solutions for all your packaging
+                                inquiries.
+                            </p>
+                        </div>
+                        <div class="accordion accordion-flush ms-5" id="accordionFlushExample">
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        What types of packaging do you offer?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">We provide a wide range of packaging options including
+                                        custom designs, sustainable materials, and standard packaging solutions tailored
+                                        to your specific needs.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3 ">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Do you offer eco-friendly packaging options?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Yes, we offer eco-friendly materials such as
+                                        biodegradable and recyclable options to support sustainable packaging practices.
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Can you accommodate large orders?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Absolutely! We can handle both small and large-scale orders efficiently,
+                                        ensuring timely delivery and consistent quality.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- Recent Section -->
+        <section class="recent">
+            <div class="recent-section">
+
+                <div class="recent-section-detail row">
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="500" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/Image-1-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Essential Tips for Effective Product Presentation</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 my-2" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="600" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-2.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>Eco-Friendly Solutions for a Greener Future</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-md-none d-lg-block my-2" data-aos="fade-zoom-in"
+                        data-aos-easing="ease" data-aos-delay="700" data-aos-offset="0">
+                        <a href="#Blogs" class="nav-item" onclick="topFunction()">
+                            <div class="recent-box">
+                                <img src="image/recent-3.jpg" alt="image" width="100%">
+                                <div
+                                    class="recent-box-date d-flex align-items-center justify-content-center flex-column">
+                                    <p>19</p>
+                                    <span>Mar</span>
+                                </div>
+                                <div class="recent-box-detail">
+                                    <h2>How Packaging Influences Consumer Decisions</h2>
+                                    <div class="link-btn">
+                                        <a href="#Blogs" class="btn" onclick="topFunction()">
+                                            Blogs
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+            <div class="footer-section">
+                <div class="footer-detail row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-first my-3 text-md-start text-center">
+                            <a href="#Home" onclick="topFunction()"> <img src="image/footer.png" alt="image"
+                                    style="width: 229px; height: 72px;">
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-navbar my-3 text-md-start text-center">
+                            <li><a href="#Home" class="nav-item" onclick="topFunction()">Home</a></li>
+                            <li><a href="#About" class="nav-item" onclick="topFunction()">About</a></li>
+                            <li><a href="#Service" class="nav-item" onclick="topFunction()">Service</a></li>
+                            <li><a href="#Products" class="nav-item" onclick="topFunction()">Products</a></li>
+                            <li><a href="#ContactUs" class="nav-item" onclick="topFunction()">Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-company my-3 text-md-start text-center">
+                            <h2>Company</h2>
+                            <div class="d-flex flex-column align-items-md-start align-items-center">
+                                <a href="#Faqs" class="nav-item" onclick="topFunction()">FAQs</a>
+                                <a href="#Blogs" class="nav-item" onclick="topFunction()">Blogs</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-contact my-3 text-md-start text-center">
+                            <h2>Contact Us</h2>
+
+                            <div class="d-flex flex-column my-3">
+
+                                <a href="tel:+11234567890"
+                                    class="my-1 d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/phone-call.png" alt="call"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    (+654) 6478909
+                                </a>
+
+                                <a href="mailto:user@gmail.com"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/email.png" alt="mail"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    mail@pckga.id
+                                </a>
+
+                                <a href="https://www.google.com/maps/place/Inspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO/@21.1819806,72.8679784,17z/data=!4m14!1m7!3m6!1s0x3be051960d7d0381:0xe35086bb452d4ac8!2sInspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l!3m5!1s0x3be051960d7d0381:0xe35086bb452d4ac8!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l?entry=ttu"
+                                    target="_blank"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/maps-and-flags.png" alt="location"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    London Eye, London Lorem ipsum dolor sit amet.
+                                </a>
+
+                            </div>
+
+                            <div class="footer-media-icon">
+                                <a href="https://facebook.com" target="_blank">
+                                    <img src="image/facebook.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://twitter.com" target="_blank">
+                                    <img src="image/twitter.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <img src="image/youtube.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://wordpress.com" target="_blank">
+                                    <img src="image/wordpress.png" alt="image" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-copy">
+                    <p>© 2024 Packega Template • All Rights Reserved</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <div class="bottom-btn">
+            <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+            <!-- scroller btn -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <img src="image/arrows.png" alt="image">
+            </button>
+
+            <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Whatsapp Icon -->
+            <a href="https://api.whatsapp.com/send?" class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-whatsapp"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- faqs section -->
+    <section class="faqs division" id="Faqs">
+
+        <!-- faqs heading -->
+        <div class="faqs-first-section">
+            <div class="faqs-heading text-center">
+                <h1>FAQs</h1>
+                <div class="my-4">
+                    <a href="#Home" class="nav-item" onclick="topFunction()">Home</a>
+                    <img src="image/right.png" alt="image" style="width: 23px; height: 23px;">
+                    <a href="#Faqs" class="nav-item" onclick="topFunction()">Faqs</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Faqs dropdown -->
+        <section class="faqs-dropdown">
+            <div class="faqs-dropdown-section">
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12 my-3" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="300" data-aos-offset="0">
+                        <div class="faqs-detail-first text-md-start text-center">
+                            <h2>Frequently Asked Questions (FAQs)</h2>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What types of packaging do you offer?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        We provide a wide range of packaging solutions, including custom designs,
+                                        sustainable materials, and standard packaging options tailored to your specific
+                                        needs.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Can you accommodate large orders?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Yes, we can handle both small and large-scale orders efficiently, ensuring
+                                        timely delivery and consistent quality.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mt-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Do you offer eco-friendly packaging options?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Absolutely! We offer eco-friendly materials such as biodegradable and recyclable
+                                        options to support sustainable packaging practices.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 second-accordion my-3" data-aos="fade-zoom-in" data-aos-easing="ease"
+                        data-aos-delay="400" data-aos-offset="0">
+                        <div class="dropdown-para">
+                            <p class="text-md-start text-center">
+                                If you have any other questions or need further assistance, please don't hesitate to get
+                                in touch. We're here to provide expert guidance and solutions for all your packaging
+                                inquiries.
+                            </p>
+                        </div>
+                        <div class="accordion accordion-flush ms-5" id="accordionFlushExample">
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        How can I request a quote for packaging services?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">To request a quote or discuss your packaging
+                                        requirements, please contact our team through our website or give us a call.
+                                        We're here to help you find the best solution for your packaging needs.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-3 ">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        What are your turnaround times for custom packaging orders?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">To request a quote or discuss your packaging
+                                        requirements, please contact our team through our website or give us a call.
+                                        We're here to help you find the best solution for your packaging needs.
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="accordion-item my-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        What types of packaging do you offer?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">We offer a variety of packaging solutions tailored to
+                                        meet diverse needs,
+                                        including custom designs, sustainable materials, and standard packaging options.
+                                        Whether you're looking for unique branding opportunities or eco-friendly
+                                        choices, we have options to suit your requirements.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+
+        <!--  Found Section -->
+        <section class="found">
+            <div class="found-section row align-items-center">
+                <div class="col-md-5" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300"
+                    data-aos-offset="0">
+                    <img src="image/delivery-girl-courier.png" alt="image" width="85%" class="found-image">
+                </div>
+                <div class="col-md-7" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="500"
+                    data-aos-offset="0">
+                    <div class="found-detail">
+                        <h2>
+                            Can't Find Your Answers? Contact Us Now!
+                        </h2>
+                        <p class="pb-2">
+                            Have questions or need assistance? Contact us today—we're here to help with all your
+                            packaging needs!
+                        </p>
+                    </div>
+                    <div class="found-btn d-flex justify-content-md-between justify-content-center flex-wrap">
+                        <a href="tel:(+765) 7655489">
+                            <div class="found-detail-btn-first d-flex align-items-center my-3">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="image/phone-call.png" alt="image" style="width: 33px; height: 33px;">
+                                </div>
+                                <h2>(+765) 7655489</h2>
+                            </div>
+                        </a>
+                        <a href="mailto:mail@pckga.id">
+                            <div class="found-detail-btn-second d-flex align-items-center my-3">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <img src="image/email found.png" alt="image" style="width: 33px; height: 33px;">
+                                </div>
+                                <h2>mail@pckga.id</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer" data-aos="fade-zoom-in" data-aos-easing="ease" data-aos-delay="300" data-aos-offset="0">
+            <div class="footer-section">
+                <div class="footer-detail row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-first my-3 text-md-start text-center">
+                            <a href="#Home" onclick="topFunction()"> <img src="image/footer.png" alt="image"
+                                    style="width: 229px; height: 72px;">
+                            </a>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-navbar my-3 text-md-start text-center">
+                            <li><a href="#Home" class="nav-item" onclick="topFunction()">Home</a></li>
+                            <li><a href="#About" class="nav-item" onclick="topFunction()">About</a></li>
+                            <li><a href="#Service" class="nav-item" onclick="topFunction()">Service</a></li>
+                            <li><a href="#Products" class="nav-item" onclick="topFunction()">Products</a></li>
+                            <li><a href="#ContactUs" class="nav-item" onclick="topFunction()">Contact</a></li>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-company my-3 text-md-start text-center">
+                            <h2>Company</h2>
+                            <div class="d-flex flex-column align-items-md-start align-items-center">
+                                <a href="#Faqs" class="nav-item" onclick="topFunction()">FAQs</a>
+                                <a href="#Blogs" class="nav-item" onclick="topFunction()">Blogs</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="footer-contact my-3 text-md-start text-center">
+                            <h2>Contact Us</h2>
+
+                            <div class="d-flex flex-column my-3">
+
+                                <a href="tel:+11234567890"
+                                    class="my-1 d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/phone-call.png" alt="call"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    (+654) 6478909
+                                </a>
+
+                                <a href="mailto:user@gmail.com"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/email.png" alt="mail"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    mail@pckga.id
+                                </a>
+
+                                <a href="https://www.google.com/maps/place/Inspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO/@21.1819806,72.8679784,17z/data=!4m14!1m7!3m6!1s0x3be051960d7d0381:0xe35086bb452d4ac8!2sInspirefox+-+Design+%26+Marketing+Agency+%7C+Mobile+app+development+%7C+Web+development+%7C+SEO!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l!3m5!1s0x3be051960d7d0381:0xe35086bb452d4ac8!8m2!3d21.1819806!4d72.8705533!16s%2Fg%2F11fmmdk43l?entry=ttu"
+                                    target="_blank"
+                                    class="my-1  d-flex align-items-center justify-content-md-start justify-content-center">
+                                    <img src="image/maps-and-flags.png" alt="location"
+                                        style="width: 14px; height: 14px; margin-right: 15px" />
+                                    London Eye, London Lorem ipsum dolor sit amet.
+                                </a>
+
+                            </div>
+
+                            <div class="footer-media-icon">
+                                <a href="https://facebook.com" target="_blank">
+                                    <img src="image/facebook.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://twitter.com" target="_blank">
+                                    <img src="image/twitter.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://youtube.com" target="_blank">
+                                    <img src="image/youtube.png" alt="image" width="100%">
+                                </a>
+                                <a href="https://wordpress.com" target="_blank">
+                                    <img src="image/wordpress.png" alt="image" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer-copy">
+                    <p>© 2024 Packega Template • All Rights Reserved</p>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="bottom-btn">
+
+            <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+            <!-- scroller btn -->
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                <img src="image/arrows.png" alt="image">
+            </button>
+
+            <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+            <!-- Whatsapp Icon -->
+            <a href="https://api.whatsapp.com/send?" class="whatsapp" target="_blank">
+                <i class="fa fa-whatsapp my-whatsapp"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Script Link -->
+    <script defer src="script.js"></script>
+
+    <!-- Bootstrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.5/dist/js/uikit-icons.min.js"></script>
+
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
